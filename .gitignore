@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.token
+*.secret
+
+# Hermes local/runtime state
+.hermes/
+logs/
+cache/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated files
+/tmp/
+tmp/

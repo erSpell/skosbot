@@ -1,0 +1,34 @@
+# Merge this into ~/.hermes/config.yaml if you want these Discord defaults.
+# Environment variables in ~/.hermes/.env override matching config values.
+
+group_sessions_per_user: true
+
+discord:
+  require_mention: true
+  thread_require_mention: false
+  free_response_channels: []
+  auto_thread: true
+  reactions: true
+  ignored_channels: []
+  no_thread_channels: []
+  history_backfill: true
+  history_backfill_limit: 50
+  allow_mentions:
+    everyone: false
+    roles: false
+    users: true
+    replied_user: true
+  missed_message_backfill:
+    enabled: false
+    channels: []
+    window_seconds: 21600
+    limit: 100
+    max_dispatches: 10
+
+# Optional gateway display settings.
+display:
+  tool_progress: all
+  tool_progress_command: true
+  platforms:
+    discord:
+      reasoning_style: subtext

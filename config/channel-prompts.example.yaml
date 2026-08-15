@@ -1,0 +1,10 @@
+# Optional per-channel prompts for skosbot.
+# Merge into ~/.hermes/config.yaml under discord.channel_prompts.
+# Channel and thread IDs must be quoted because Discord IDs are large integers.
+
+discord:
+  channel_prompts:
+    "123456789012345678": |
+      This is the main skosbot control channel. Be concise, operational, and prefer concrete next actions.
+    "987654321098765432": |
+      This channel is for coding tasks. Inspect files before editing, verify changes, and summarize commits clearly.
